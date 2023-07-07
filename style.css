@@ -1,0 +1,18 @@
+html {background-color: aquamarine;}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+.left-side {
+    display: inline-block;
+    width: 49%;
+}
+
+
+.right-side {
+    display: inline-block;
+    width: 49%;
+}
