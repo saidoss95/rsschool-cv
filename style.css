@@ -1,18 +1,102 @@
-html {background-color: aquamarine;}
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #ccc;
+}
 
 body {
     width: 1000px;
     margin: 0 auto;
-    background-color: blanchedalmond;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }   
+
+header {
+    padding: 2.4cm 1.6cm 2.1cm;
+    position: relative;
+}
+
+header img {
+    width: 200px;
+    border-radius: 50%;
+    height: 230px;
+    position: absolute; 
+    top: 38px;
+    right: 113px;
+    border: 2px solid #000;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+span {
+    font-size: 24px;
+    
 }
 
 .left-side {
     display: inline-block;
-    width: 49%;
+    width: 40%;
+    padding: 0 0 2.1cm 1.6cm;
+    /* transform: translateY(60); */
 }
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 1.3cm;
+    display: inline-block;
+}
+
+h2 {
+    margin-bottom: 1cm;
+}
+
+li {
+    line-height: 1.5;
+    list-style-position: inside;
+}
+
 
 
 .right-side {
     display: inline-block;
     width: 49%;
+    vertical-align: top;
+}
+
+main p {
+    line-height: 1.5;
+}
+
+main {
+    margin-bottom: 1.3cm;
+    display: inline-block;
+}
+
+.lang {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.6cm;
+    background-color: rgb(26, 25, 25);
+    color: #fff;
+    height: 70px;
+    align-items: center;
+
+ }
+footer img {
+    width: 48px;
+}
+.rsschool {
+    width: 80px;
 }
